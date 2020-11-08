@@ -18,7 +18,7 @@ package pod
 
 import (
 	"fmt"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec"
+	"github.com/chenhy97/chaosblade-exec-os/exec"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"strings"
 
@@ -51,6 +51,14 @@ func addActionExamples(modelSpec *ResourceModelSpec) {
 		for _, action := range expModelSpec.Actions() {
 			v := interface{}(action)
 			switch v.(type) {
+			case *exec.StraceDelayActionSpec:
+				action.SetExample(
+					`Create a Strace Delay experiment in the pod
+blade create k8s pod-strace delay --pid 1 --syscall-name mmap --time 5s --delay-loc enter --names nginx-app --namespace default --kubeconfig config`)
+			case *exec.StraceErrorActionSpec:
+				action.SetExample(
+					`Create a Strace Error experiment in the pod
+blade create k8s pod-strace error --pod 1 --syscall-name mmap --time 5s --delay-loc enter --names nginx-app --namespace default --kubeconfig config`)
 			case *exec.FillActionSpec:
 				action.SetLongDesc("The disk fill scenario experiment in the pod")
 				action.SetExample(

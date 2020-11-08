@@ -19,7 +19,7 @@ package container
 import (
 	"fmt"
 	dockerexec "github.com/chaosblade-io/chaosblade-exec-docker/exec"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec"
+	"github.com/chenhy97/chaosblade-exec-os/exec"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"strings"
 
