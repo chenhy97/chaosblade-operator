@@ -4,7 +4,7 @@ require (
 	github.com/chaosblade-io/chaosblade-exec-docker v0.8.0
 	github.com/chaosblade-io/chaosblade-exec-os v0.8.0
 	github.com/chaosblade-io/chaosblade-spec-go v0.8.0
-	github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201108132938-0c133c98d1e4 // indirect
+	github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201109015607-40ec86c65b74
 	github.com/ethercflow/hookfs v0.3.0
 	github.com/go-openapi/spec v0.19.4
 	github.com/hanwen/go-fuse v1.0.0

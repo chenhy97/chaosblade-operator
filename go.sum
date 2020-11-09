@@ -148,6 +148,8 @@ github.com/chaosblade-io/chaosblade-spec-go v0.8.0 h1:Lmlly8bWmX7UEvnXJQ7YA06kZb
 github.com/chaosblade-io/chaosblade-spec-go v0.8.0/go.mod h1:xUF+8r54FphQjBR8fVPnweVqzu7EitE15UsnZ57O5gk=
 github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201108132938-0c133c98d1e4 h1:RfUs2KO1SCeEqwLkSU/EEx/7dV3b7KllFtRd+efQyWU=
 github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201108132938-0c133c98d1e4/go.mod h1:iP17BuTi0PLweYvstSHgiaFVOQr3nWtXgnF4XTc5+lM=
+github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201109015607-40ec86c65b74 h1:Ge02/Gn1uMB8jSveCBE8RGI18V9nJ8Gi2HvGb3B/q8g=
+github.com/chenhy97/chaosblade-exec-os v0.8.1-0.20201109015607-40ec86c65b74/go.mod h1:iP17BuTi0PLweYvstSHgiaFVOQr3nWtXgnF4XTc5+lM=
 github.com/circonus-labs/circonus-gometrics v2.3.1+incompatible/go.mod h1:nmEj6Dob7S7YxXgwXpfOuvO54S+tGdZdw9fuRZt25Ag=
 github.com/circonus-labs/circonusllhist v0.1.3/go.mod h1:kMXHVDlOchFAehlya5ePtbp5jckzBHf4XRpQvBOLI+I=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
